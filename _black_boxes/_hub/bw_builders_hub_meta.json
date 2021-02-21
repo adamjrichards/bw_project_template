@@ -1,0 +1,29 @@
+{
+	"MY_BUILDERS_HUB"	:	{
+		"Add Entries" :	{
+			"target"	:	"new_entry.php",
+			"id"		:	"the_builders_add_entries_link",
+			"className"	:	"dom_node hub bubble builders"
+		},
+		"Add Data" :	{
+			"target"	:	"add_data.php",
+			"id"		:	"the_builders_add_data_link",
+			"className"	:	"dom_node hub bubble builders"
+		},
+		"Edit and Correct" :	{
+			"target"	:	"edit_and_correct.php",
+			"id"		:	"the_builders_edit_and_correct_link",
+			"className"	:	"dom_node hub bubble builders"
+		},
+		"Create a Teaching Page" :	{
+			"target"	:	"teaching_page.php",
+			"id"		:	"the_builders_create_a_page_link",
+			"className"	:	"dom_node hub bubble builders"
+		},
+		"Contribute in Other Ways" :	{
+			"target"	:	"contribute.php",
+			"id"		:	"the_builders_contribute_link",
+			"className"	:	"dom_node hub bubble builders"
+		}
+	}
+}

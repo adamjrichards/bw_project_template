@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="the_bw_hub_svg" viewBox="0 0 2000 1000">	
+	<defs>		
+		<filter id="the_initial_effects">
+			<feColorMatrix in="SourceGraphic" result="sat_out" type="saturate" values="0.1" />
+			<feColorMatrix in="SourceGraphic" result="hue_out" type="hueRotate" values="30" />
+			<feBlend in="sat_out" in2="hue_out" result="multiply_out" mode="multiply" />
+		</filter>	
+		<filter id="the_color_dodge_filter">
+			<feBlend in="#the_bw_hub_rays" in2="#the_bw_hub_ornaments" result="dodge_out" mode="color-dodge" />
+		</filter>	
+		<filter id="the_color_burn_filter">
+			<feBlend in="#the_bw_hub_background" in2="#the_bw_hub_ornaments" result="burn_out" mode="multiply" />
+		</filter>
+	</defs>
+	<g id="the_bw_hub_group">
+		<use id="the_bw_hub_background" href="#the_hub_background_group" class="hub" />
+		<use id="the_bw_hub_rays" href="#the_hub_ray_group" class="hub" filter="url(#the_color_burn_filter)" />
+		<use id="the_bw_hub_ornaments" href="#the_hub_ornament_group" class="hub" filter="url(#the_color_dodge_filter)" />
+		<use id="the_bw_hub_rings" href="#the_hub_ring_group" class="hub" filter="url(#the_initial_effects)" />
+	</g>
+</svg>

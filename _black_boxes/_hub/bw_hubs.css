@@ -1,0 +1,81 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+#the_bw_hub_svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: 3px solid black;
+	overflow: hidden;
+}
+#the_bw_hub_background {
+	opacity: 1;
+}
+#the_bw_hub_rays {
+	x: calc( 50% - 1000px );
+	y: calc( 50% - 1000px );
+	opacity: 0.6;
+}
+#the_bw_hub_ornaments {
+	transform-origin: center center;
+	opacity: 1;
+}
+#the_bw_hub_rings {
+	opacity: 1;
+}
+#the_bw_hub_event_map {
+	transform: scale( 0.445 );
+	visibility: hidden;
+}
+
+.ring {
+	x: calc( 50% - 500px );
+	y: calc( 50% - 500px );
+	transform-origin: 50% 50%;
+}
+.yellow {
+	fill: rgb( 185, 180, 6 );
+}
+.green {
+	fill: rgb( 20, 160, 10 );
+}
+.red {
+	fill: rgb( 170, 0, 0 );
+}
+.blue {
+	fill: rgb( 20, 50, 180 );
+}
+
+
+
+#the_outer_ring {
+	transform: scale( 0.445 );
+}
+#the_middle_ring {
+	transform: scale( 0.3 );
+}
+#the_inner_ring {
+	transform: scale( 0.15 );
+}
+
+
+.axle {
+	x: 50%;
+	y: 50%;
+	transform-origin: 50% 50%;
+}
+#the_axle_front {
+	transform: scale( 1.5 );
+	opacity: 0.26 ;
+}
+#the_axle_middle {
+	opacity: 0.5;
+}
+#the_axle_back  {
+	transform: scale( 0.5 );
+	opacity: 0.8;
+}

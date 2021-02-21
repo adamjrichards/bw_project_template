@@ -1,0 +1,57 @@
+<svg id="the_hub_ornament_svg" width="0" height="0" preserveAspectRatio="xMidYMid">
+	
+	<defs>
+		<g id="the_spoke" transform="scale( 0.98 )">
+			<radialGradient id="the_fill_gradient" cx="50%" cy="50%" r="50%" gradientUnits="objectBoundingBox">
+				<stop offset="0%" stop-color="rgba( 0, 0, 0, 1 )" />
+				<stop offset="15%" stop-color="rgba( 10, 58, 120, 0.83 )" />
+				<stop offset="34%" stop-color="rgba( 115, 144, 164, 0.88 )" />
+				<stop offset="55%" stop-color="rgba( 91, 120, 138, 0.91 )" />
+				<stop offset="78%" stop-color="rgba( 58, 88, 102, 0.95 )" />
+				<stop offset="100%" stop-color="rgba( 20, 50, 60, 1 )" />
+			</radialGradient>
+			<radialGradient id="the_stroke_gradient" cx="50%" cy="50%" r="50%" gradientUnits="objectBoundingBox">
+				<stop offset="0%" stop-color="rgba( 0, 0, 0, 0 )" />
+				<stop offset="50%" stop-color="rgba( 0, 60, 180, 1 )" />
+				<stop offset="100%" stop-color="rgba( 200, 200, 250, 0 )" />
+			</radialGradient>
+			<polygon fill="url( #the_fill_gradient )" stroke="url( #the_stroke_gradient )" stroke-width="1.5" points="0,0 30,146 -30,146" />
+		</g>
+		<g id="the_wheel">
+			<use href="#the_spoke" transform="rotate( 0 )" />
+			<use href="#the_spoke" transform="rotate( 22.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 45 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 67.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 90 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 112.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 135 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 157.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 180 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 202.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 225 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 247.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 270 0 0  )" />
+			<use href="#the_spoke" transform="rotate( 292.5 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 315 0 0 )" />
+			<use href="#the_spoke" transform="rotate( 337.5 0 0 )" />
+		</g>
+		
+		<g id="the_hub_ornament_group">
+			<g id="the_halo">
+				<radialGradient id="the_halo_gradient" cx="50%" cy="50%" r="50%" gradientUnits="userSpaceOnUse">
+					<stop offset="0%" stop-color="white" />
+					<stop offset="50%" stop-color="white" />
+					<stop offset="50%" stop-color="rgba( 56, 82, 141, 0.5 )" />
+					<stop offset="70%" stop-color="rgba( 6, 82, 141, 0.4 )" />
+					<stop offset="100%" stop-color="rgba( 0, 50, 60, 0 )" />
+				</radialGradient>
+				<circle cx="50%" cy="50%" r="50%" fill="url( #the_halo_gradient )" transform="scale( 1.2, 1 )" />
+			</g>
+			<g id="the_axle">
+				<use id="the_axle_back" class="hub ornament axle" href="#the_wheel" opacity="0.6"/>
+				<use id="the_axle_middle" class="hub ornament axle" href="#the_wheel" opacity="0.7" />
+				<use id="the_axle_front" class="hub ornament axle" href="#the_wheel" opacity="0.8" />
+			</g>	
+		</g>		
+	</defs>
+</svg>

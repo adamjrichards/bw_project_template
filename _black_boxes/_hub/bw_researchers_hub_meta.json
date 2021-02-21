@@ -1,0 +1,34 @@
+{
+	"MY_RESEARCHERS_HUB"	:	{
+		"Search the Full Dictionary"	: {
+			"target"	:	"bw_full_search.php",
+			"id"		:	"the_researchers_full_search_link",
+			"className"	:	"dom_node hub bubble researchers"
+		},
+		"Quick Search" :	{
+			"target"	:	"bw_quick_search.php",
+			"id"		:	"the_researchers_quick_search_link",
+			"className"	:	"dom_node hub bubble researchers"
+		},
+		"Translate to Mohawk" :	{
+			"target"	:	"bw_translate_to_mohawk.php",
+			"id"		:	"the_researchers_translate_to_mohawk_link",
+			"className"	:	"dom_node hub bubble researchers"
+		},
+		"Translate from Mohawk" :	{
+			"target"	:	"bw_translate_from_Mohawk.php",
+			"id"		:	"the_researchers_translate_from_mohawk_link",
+			"className"	:	"dom_node hub bubble researchers"
+		},
+		"Syllabics" :	{
+			"target"	:	"bw_syllabics_page.php",
+			"id"		:	"the_researchers_syllabics_link",
+			"className"	:	"dom_node hub bubble researchers"
+		},
+		"Immersive Learning" :	{
+			"target"	:	"bw_immersive_learning.php",
+			"id"		:	"the_researchers_immersive_learning_link",
+			"className"	:	"dom_node hub bubble researchers"
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"object_naming_conventions": {
+		"abstract_class_files": [ "lower_case", "Title_Case" ],
+		"asset_files": "lower_case",
+		"black_box_files": "IGNORE",
+		"core_files": [ "_", "UPPER_CASE" ],
+		"data_files": [ "lower_case", "lower_case" ],
+		"dot_files": [ "IGNORE" ],
+		"function_files": [ "lower_case", "lower_case" ],
+		"instantiable_class_files": [ "UPPER_CASE", "Title_Case" ],
+		"javascript_files": [ "lower_case", "Title_Case" ],
+		"json_files": [ "lower_case", "lower_case" ],
+		"simple_codepages": "lower_case",
+		"black_willow_connector": [ "Title_Case", "" ]
+	},
+	"ignored_files": [ "htaccess", "gitignore", "phpinfo", "conf", "ico", "phproj", "sln", "md" ],
+	"javascript_subsystem_naming_conventions": {
+		"abstract_class_files": [ "lower_case", "Title_Case" ],
+		"asset_files": "lower_case",
+		"black_box_files": "IGNORE",
+		"data_files": [ "lower_case", "_", "lower_case" ],
+		"dot_files": [ "IGNORE" ],
+		"function_files": [ "lower_case", "_", "lower_case" ],
+		"instantiable_class_files": [ "UPPER_CASE", "_", "Title_Case" ],
+		"javascript_files": [ "lower_case", "_", "Title_Case" ],
+		"json_files": [ "lower_case", "_", "lower_case" ],
+		"simple_codepages": "lower_case",
+		"black_willow_connector": [ "Title_Case", "", "" ],
+		"ignored_files": [ "htaccess", "gitignore", "phpinfo", "conf", "ico", "phproj", "sln", "md" ]
+	},
+	"default_folder_content_types": {
+		"_black_boxes": [ "instantiable_classes", "folders" ],
+		"_classes": "instantiable_classes",
+		"_components": "instantiable_classes",
+		"_containers": "instantiable_classes",
+		"_content": [ "asset_files", "folders" ],
+		"_css": [ "simple_codepages", "folders" ],
+		"_data": [ "simple_codepages", "folders" ],
+		"_errex": "instantiable_classes",
+		"_functions": [ "simple_codepages", "folders" ],
+		"_js": [ "js_subsystem" ],
+		"_json": [ "simple_codepages", "folders" ],
+		"_obsolete": "any",
+		"_resources": "any",
+		"_static_pages": "simple_codepages",
+		"_svg": [ "simple_codepages", "folders" ],
+		"_tags": "instantiable_classes",
+		"testbench": "any"
+	},
+	"default_javascript_folder_content_types": {
+		"_black_boxes": [ "instantiable_classes", "folders" ],
+		"_components": "instantiable_classes",
+		"_event": "instantiable_classes",
+		"_errex": "instantiable_classes",
+		"_handlers": "abstract_classes",
+		"_libraries": [ "read-only" ],
+		"_utilities": [ "read-only" ],
+		"_workers": "instantiable_classes"
+	},
+	"file_system_tree": {
+		"top_level_folders": {
+			"black_boxes": {
+				"subfolders": [ "banner", "hub", "logo", "splash" ],
+				"classes": "",
+				"components": {
+					"subfolders": [ "controls", "indexes", "menus", "objects", "widgets" ],
+					"files": [ "Gateway", "Image_Set", "Login", "Ornament", "Portal", "Sidebar" ]
+				},
+				"containers": [ "Aside_Tag", "Body_Tag", "Div_Tag", "Footer_Tag", "Head_Tag", "Header_Tag", "HTML_Tag", "List_Tag", "Main_Tag", "Menu_Tag", "Nav_Tag", "Section_Tag" ],
+				"content": "",
+				"css": "master.css",
+				"data",
+				"errex": [ 404, 500 ],
+				"functions": "",
+				"js": "onload.js",
+				"json": "load_order",
+				"obsolete": "",
+				"resources": [
+					"Black Willow source code on GitHub.lnk",
+					"The Black Willow hub_on_Azure.lnk",
+					"Check your PHP server status.php"
+				],
+				"static_pages": [ "about_me", "contact_me", "copyright", "meta", "smallprint" ],
+				"svg": "",
+				"testbench": "",
+				]
+			},
+			"top_level_files": [ "black_willow.conf", "BW_FOLDER_NAME_DEFAULTS.json", "favicon.ico", "index.php", "LICENSE", "README.md", "BW_TEMPLATE_INSTALLATION.do_this_first.php", "php_info.php" ]
+		}
+	}
